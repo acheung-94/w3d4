@@ -14,7 +14,7 @@ class Board
       nums.map { |num| Tile.new(num) }
     end
 
-    self.new(tiles)
+    Board.new(tiles)
   end
 
   def initialize(grid = self.empty_grid)
